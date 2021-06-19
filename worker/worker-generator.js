@@ -285,7 +285,7 @@ async function handleRequest(request) {
 <body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
 <div class="mdui-container">
     <br><br>
-    <a href="https://gindex.hostcarry.net/"><img border="0" alt="HostCarry" src="https://cdn.jsdelivr.net/gh/jscdn/svg@1.0.1/bhadoo-cloud-logo.svg" height="30px"></a><h3>Drive Index Generator - Beta</h3>
+    <a href="https://gindex.hostcarry.net/"><img border="0" alt="HostCarry" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Google_Drive_-_New_Logo.png" height="30px"></a><h3>Drive Index Generator - Beta</h3>
     <br>
     <div class="mdui-row">
         <div class="mdui-col-sm-2">
@@ -335,7 +335,7 @@ async function handleRequest(request) {
     <div class="mdui-typo">
         <pre class="snippet"><code class="html js">${codeJS}</code></pre>
     </div>
-    <center><h5>© <span id="year"></span> - Bhadoo Cloud Cyber Systems</h5></center>
+    <center><h5>Copyright © <span id="year"></span> HostCarry. All rights are reserved.</h5></center>
 </div>
 
 <script>
