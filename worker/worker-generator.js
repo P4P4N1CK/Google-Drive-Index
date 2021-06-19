@@ -10,7 +10,7 @@ const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
 const jsURL = 'https://raw.githubusercontent.com/khalequzzaman17/Google-Drive-Index/master/worker/worker-beta.js';
 
 async function handleRequest(request) {
-    let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index';
+    let title = getParameterByName(request.url, 'site_name') || 'Google Drive Mirror';
     let auth_code = getParameterByName(request.url, 'auth_code');
     let root = getParameterByName(request.url, 'root') || 'root';
     let user = getParameterByName(request.url, 'user') || '';
@@ -330,7 +330,7 @@ async function handleRequest(request) {
     </div>
     <br><br>
     <h3>
-        3. Copy following code and paste into <a href="https://dash.cloudflare.com" target="_blank">CloudFlare Workers</a>
+        3. Copy following code and paste into <a href="https://dash.cloudflare.com" target="_blank">Cloudflare Workers</a>
     </h3>
     <div class="mdui-typo">
         <pre class="snippet"><code class="html js">${codeJS}</code></pre>
