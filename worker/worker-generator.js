@@ -45,7 +45,7 @@ async function handleRequest(request) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
-    <title>Google Drive Mirror - Beta</title>
+    <title>Google Drive Mirror Generator</title>
     <link rel="icon" type="image/x-icon" href="https://www.cloudflare.com/favicon.ico"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.1/dist/css/mdui.min.css">
     <script src="https://cdn.jsdelivr.net/npm/mdui@0.4.1/dist/js/mdui.min.js"></script>
@@ -285,7 +285,7 @@ async function handleRequest(request) {
 <body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
 <div class="mdui-container">
     <br><br>
-    <a href="https://gindex.hostcarry.net/"><img border="0" alt="HostCarry" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Google_Drive_-_New_Logo.png" height="30px"></a><h3>Drive Index Generator - Beta</h3>
+    <a href="https://gindex.hostcarry.net/"><img border="0" alt="HostCarry" src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Google_Drive_-_New_Logo.png" height="30px"></a><h3>Version: 0.1b2</h3>
     <br>
     <div class="mdui-row">
         <div class="mdui-col-sm-2">
