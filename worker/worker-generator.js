@@ -7,7 +7,7 @@ const clientId = '58094879805-4654k2k5nqdid5bavft7fvea5u9po0t1.apps.googleuserco
 const clientSecret = 'ZNPZ-vS6N9Zjsyb_sNMZmXHL';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
-const jsURL = 'https://raw.githubusercontent.com/ParveenBhadooOfficial/Bhadoo-Drive-Index/master/worker/worker-beta.js';
+const jsURL = 'https://raw.githubusercontent.com/khalequzzaman17/Google-Drive-Index/master/worker/worker-beta.js';
 
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index';
@@ -299,7 +299,7 @@ async function handleRequest(request) {
         <form action='' method='get'>
             <div class="mdui-textfield">
                 <i class="mdui-icon material-icons">fingerprint</i>
-                <label class="mdui-textfield-label">Paste Authentication Code Here</label>
+                <label class="mdui-textfield-label">Authentication Code</label>
                 <input class="mdui-textfield-input" type="text" name="auth_code"/>
             </div>
             <div class="mdui-textfield">
